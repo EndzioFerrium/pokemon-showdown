@@ -19,7 +19,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 1881,
 		gen: 9,
 	},
-	ambipom: {
+	ambipomite: {
 		name: ":Ambipomite",
 		spritenum: 575,
 		megaStone: { "Ambipom": "Ambipom-Mega" },
@@ -28,8 +28,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
 		num: 1850,
-		gen: 9,
-		isNonstandard: "Future",	
+		gen: 6,
+		isNonstandard: "Past",	
 	},
 	ledianite: {
 		name: ":Ledianite",
@@ -40,8 +40,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
 		num: 1849,
-		gen: 9,
-		isNonstandard: "Future",	
+		gen: 6,
+		isNonstandard: "Past",	
 	},
 	abomasite: {
 		name: "Abomasite",
