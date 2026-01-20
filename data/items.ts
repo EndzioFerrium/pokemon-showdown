@@ -19,6 +19,30 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 1881,
 		gen: 9,
 	},
+	Ambipom: {
+		name: ":Ambipomite",
+		spritenum: 575,
+		megaStone: { "Ambipom": "Ambipom-Mega" },
+		itemUser: ["Ambipom"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: -1,
+		gen: 6,
+		isNonstandard: "Past",	
+	},
+	ledianite: {
+		name: ":Ledianite",
+		spritenum: 575,
+		megaStone: { "Ledian": "Ledian-Mega" },
+		itemUser: ["Ledian"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: -2,
+		gen: 6,
+		isNonstandard: "Past",	
+	},
 	abomasite: {
 		name: "Abomasite",
 		spritenum: 575,
