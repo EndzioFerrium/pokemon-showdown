@@ -20,7 +20,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 9,
 	},
 	ambipomite: {
-		name: ":Ambipomite",
+		name: "Ambipomite",
 		spritenum: 575,
 		megaStone: { "Ambipom": "Ambipom-Mega" },
 		itemUser: ["Ambipom"],
@@ -32,7 +32,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		isNonstandard: "Past",	
 	},
 	ledianite: {
-		name: ":Ledianite",
+		name: "Ledianite",
 		spritenum: 575,
 		megaStone: { "Ledian": "Ledian-Mega" },
 		itemUser: ["Ledian"],
