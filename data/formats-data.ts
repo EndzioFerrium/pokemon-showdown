@@ -1304,6 +1304,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 		natDexTier: "RU",
 	},
+	ledianmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	spinarak: {
 		tier: "LC",
 	},
@@ -1398,6 +1402,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "PU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
+	},
+	ambipommega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	sunkern: {
 		tier: "LC",
