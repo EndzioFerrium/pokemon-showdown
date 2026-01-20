@@ -3675,7 +3675,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		formeOrder: ["Ledian", "Ledian-Mega"]
 	},
 	ledianmega: {
-		num: 160,
+		num: 166,
 		name: "Ledian-Mega",
 		baseSpecies: "Ledian",
 		forme: "Mega",
@@ -3687,7 +3687,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Red",
 		eggGroups: ["Bug"],
 		requiredItem: "Ledianite",
-		gen: 11,
 	},
 	spinarak: {
 		num: 167,
@@ -7877,19 +7876,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		formeOrder: ["Ambipom", "Ambipom-Mega"],
 	},
 	ambipommega: {
-		num: 398,
+		num: 424,
 		name: "Ambipom-Mega",
 		baseSpecies: "Ambipom",
 		forme: "Mega",
 		types: ["Normal", "Fairy"],
 		baseStats: { hp: 85, atk: 120, def: 96, spa: 100, spd: 66, spe: 115 },
-		abilities: { 0: "Oppurtunist", H: "Skill Link" },
+		abilities: { 0: "Oppurtunist" },
 		heightm: 1.4,
 		weightkg: 28.3,
 		color: "Purple",
 		eggGroups: ["Field"],
 		requiredItem: "Ambipomite",
-		gen: 9,
 	},
 	drifloon: {
 		num: 425,
