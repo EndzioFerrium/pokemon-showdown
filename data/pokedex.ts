@@ -3672,6 +3672,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Ledyba",
 		evoLevel: 18,
 		eggGroups: ["Bug"],
+		otherFormes: ["Ledian-Mega"],
 		formeOrder: ["Ledian", "Ledian-Mega"]
 	},
 	ledianmega: {
@@ -7873,6 +7874,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoType: "levelMove",
 		evoMove: "Double Hit",
 		eggGroups: ["Field"],
+		otherFormes: ["Ambipom-Mega"],
 		formeOrder: ["Ambipom", "Ambipom-Mega"],
 	},
 	ambipommega: {
