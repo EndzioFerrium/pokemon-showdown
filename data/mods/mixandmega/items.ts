@@ -1,4 +1,12 @@
 export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
+	ledianite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	ambipomite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	abomasite: {
 		inherit: true,
 		isNonstandard: null,
