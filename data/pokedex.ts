@@ -3670,7 +3670,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 35.6,
 		color: "Red",
 		prevo: "Ledyba",
-		evoLevel: 18,
+		evoLevel: 22,
 		eggGroups: ["Bug"],
 		otherFormes: ["Ledian-Mega"],
 		formeOrder: ["Ledian", "Ledian-Mega"]
