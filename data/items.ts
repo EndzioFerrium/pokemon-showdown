@@ -28,8 +28,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
 		num: -1,
-		gen: 6,
-		isNonstandard: "Custom",	
+		gen: 9,
+		isNonstandard: "Future",	
 	},
 	ledianite: {
 		name: ":Ledianite",
@@ -40,8 +40,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			return !item.megaStone?.[source.baseSpecies.baseSpecies];
 		},
 		num: -2,
-		gen: 6,
-		isNonstandard: "Custom",	
+		gen: 9,
+		isNonstandard: "Future",	
 	},
 	abomasite: {
 		name: "Abomasite",
